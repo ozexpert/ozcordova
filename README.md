@@ -1,7 +1,8 @@
 ozcordova
 =========
 
-Cordova Sample Application with Ionic Framework
+Cordova Sample Application with Ionic Framework.
+This is just an app to test out plugins. Feel free to fork, but do not distribute to the stores.
 
 Plugins Used
 ============
