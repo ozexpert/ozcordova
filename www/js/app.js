@@ -22,5 +22,9 @@ document.addEventListener('deviceready', function () {
     // Enable background mode
     // cordova.plugins.backgroundMode.enable();
     // Android customization
-    cordova.plugins.backgroundMode.configure({ text:'Doing heavy tasks.'});
+    cordova.plugins.backgroundMode.configure({ 
+      title: 'Connected',
+      ticker: 'tick',
+      text:'Doing heavy tasks.'
+    });
 }, false);
