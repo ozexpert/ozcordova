@@ -18,6 +18,7 @@ starterModule.run(function($ionicPlatform) {
   });
 });
 
+var backgroundService;
 document.addEventListener('deviceready', function () {
     // Enable background mode
     // cordova.plugins.backgroundMode.enable();
@@ -27,4 +28,5 @@ document.addEventListener('deviceready', function () {
       ticker: 'tick',
       text:'Doing heavy tasks.'
     });
+    backgroundService = cordova.require('com.red_folder.phonegap.plugin.backgroundservice.BackgroundService');
 }, false);
